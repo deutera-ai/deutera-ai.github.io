@@ -1,0 +1,8 @@
+<svg class="hero-diagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" aria-hidden="true" focusable="false">
+  <g fill="none" stroke="currentColor" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 20 190 220 30 420 M690 20 530 220 690 420"/>
+    <path id="propagator" pathLength="100" d="M190 220 C204 220 218 196 232.5 196 S261 244 275 244 S303 196 317.5 196 S346 244 360 244 S388 196 402.5 196 S431 244 445 244 S473 196 487.5 196 S516 220 530 220"/>
+    <use class="diagram-pulse" href="#propagator"/>
+  </g>
+  <g fill="currentColor"><circle cx="190" cy="220" r="32"/><circle cx="530" cy="220" r="32"/></g>
+</svg>

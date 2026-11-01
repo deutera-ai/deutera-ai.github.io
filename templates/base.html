@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101815">
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="DEUTERA">
+  <meta property="og:title" content="{{title}}">
+  <meta property="og:description" content="{{description}}">
+  <link rel="icon" href="{{assets}}favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="{{assets}}site.css">
+  <script src="{{assets}}contact-config.js" defer></script>
+  <script src="{{assets}}site.js" defer></script>
+</head>
+<body class="{{page_class}}">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  {{header}}
+  <main id="conteudo" tabindex="-1">
+    {{content}}
+  </main>
+  {{footer}}
+</body>
+</html>
