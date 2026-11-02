@@ -112,3 +112,5 @@ git push
 ```
 
 Revisar `git diff --cached` antes do commit. Não adicionar arquivos do projeto pai, documentos privados ou outras imagens de trabalho de `assets/` que não sejam usadas no site. Um push não comprova o término da implantação; verificar o resultado no GitHub Pages e no domínio configurado.
+
+A apresentação dos fundadores está temporariamente comentada em `templates/components/about.html`. A seção Quem somos continua visível; nomes, biografias, fotos e links dos fundadores não são renderizados. Recursos originais foram preservados. Para restaurar, remover o comentário e executar `python3 scripts/build.py`.
