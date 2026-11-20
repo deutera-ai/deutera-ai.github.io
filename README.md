@@ -64,11 +64,8 @@ Quando houver número oficial confirmado, preencha somente dígitos (código do 
 
 ## Conteúdo e pendências editoriais
 
-- Os dados acadêmicos e profissionais dos fundadores foram fornecidos pelo responsável pelo site. Não foram criados clientes, métricas, depoimentos, prêmios ou fotografias.
-- Os cards usam as fotos fornecidas em `Edson.png` e `Lucas1.png`, com recorte via CSS, dimensões reservadas, texto alternativo e carregamento adiado.
-- As etapas do produto são uma proposta de funcionamento; benefícios são potenciais, sem garantias de alcance, seguidores ou desempenho.
-- A coordenação de pós-graduação em Ciência de Dados mencionada no briefing não foi confirmada. Por isso, a versão pública apresenta Edson Otoniel apenas como professor da UFCA, sem essa função de coordenação.
-- Fonte oficial consultada: [UFCA — Conheça os cursos de graduação: Banco de Dados](https://www.ufca.edu.br/noticias/conheca-os-cursos-de-graduacao-da-ufca-banco-de-dados/). Ela identifica Otoniel como coordenador de graduação em Banco de Dados, com ênfase em Ciência de Dados. Isso não confirma coordenação de pós-graduação. Confirmar com o responsável antes de acrescentar a atribuição solicitada.
+- Os dados acadêmicos e profissionais dos fundadores foram fornecidos pelo responsável pelo site. Não foram criados clientes, métricas, depoimentos, prêmios ou fotografias. 
+- As etapas do produto são uma proposta de funcionamento; benefícios são potenciais, sem garantias de alcance, seguidores ou desempenho. 
 
 ## Acessibilidade e movimento
 
@@ -103,8 +100,7 @@ Depois de revisar e validar localmente, os arquivos públicos desta V1 são:
 
 ```bash
 git add index.html README.md produtos/midia-instagram/index.html \
-  assets/logo_oficial.png assets/favicon.svg assets/site.css assets/site.js \
-  assets/Edson.png assets/Lucas1.png \
+  assets/logo_oficial.png assets/favicon.svg assets/site.css assets/site.js \ 
   assets/contact-config.js scripts/build.py scripts/check.py templates/
 git commit -m "Implementa site institucional Deutera V1"
 git push
