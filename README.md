@@ -18,8 +18,7 @@ Os links locais são relativos; não há domínio fixado no código. Nenhuma con
 index.html                           # página inicial gerada
 produtos/midia-instagram/index.html   # página de produto gerada
 assets/
-  logo_oficial.png                    # imagem oficial existente, preservada
-  Edson.png, Lucas1.png               # fotos dos fundadores fornecidas pelo responsável
+  logo_oficial.png                    # imagem oficial existente, preservada 
   favicon.svg                        # símbolo vetorial da identidade
   site.css                           # estilos compartilhados e responsividade
   site.js                            # menu, ano e ativação futura do contato
